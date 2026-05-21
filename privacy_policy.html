@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Privacy Policy - MediAssist AI</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.7; color: #333; max-width: 850px; margin: 0 auto; padding: 3rem 2rem; }
+        h1 { color: #007AFF; border-bottom: 2px solid #007AFF; padding-bottom: 10px; }
+        h2 { color: #007AFF; margin-top: 2rem; border-left: 4px solid #007AFF; padding-left: 15px; }
+        h3 { color: #444; margin-top: 1.5rem; }
+        p, li { font-size: 1.05rem; }
+        .footer { margin-top: 3rem; font-size: 0.9rem; color: #666; border-top: 1px solid #eee; padding-top: 1rem; }
+        .highlight { background: #f0f7ff; padding: 15px; border-radius: 8px; border-right: 4px solid #007AFF; margin: 1rem 0; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p><strong>Last Updated:</strong> May 21, 2024</p>
+
+    <div class="highlight">
+        MediAssist AI is committed to transparency. We do not sell your data, and we do not use your medical information for advertising or profile-building.
+    </div>
+
+    <h2>1. Data We Collect</h2>
+    <h3>Personal Identification Information</h3>
+    <p>We collect your email address and name via Apple or Google Authentication. This is used solely for account identification and subscription management.</p>
+
+    <h3>Health & Consultation Data</h3>
+    <p>Inputs you provide (symptoms, history, images) are processed in real-time. We use Supabase (PostgreSQL) with Row Level Security (RLS) to ensure that only you can access your personal records.</p>
+
+    <h3>Real-Time Communications</h3>
+    <p>For video/audio features, we use Agora. MediAssist AI does not record or store your live audio/video streams unless you explicitly trigger a "Save Session" feature.</p>
+
+    <h2>2. AI Data Processing Disclosure</h2>
+    <p>MediAssist AI utilizes advanced Large Language Models (LLMs) from <strong>OpenAI (GPT-4), Google (Gemini), and Anthropic (Claude)</strong>. Data sent to these providers is:</p>
+    <ul>
+        <li>Sent over encrypted TLS connections.</li>
+        <li>Anonymized where possible.</li>
+        <li><strong>Not</strong> used by these providers to train their global models (Enterprise-grade API usage).</li>
+    </ul>
+
+    <h2>3. Payment Security</h2>
+    <p>Payment processing is handled via <strong>Stripe</strong>. MediAssist AI never sees or stores your full credit card number or CVV. Stripe provides us only with a secure token to manage your subscription.</p>
+
+    <h2>4. Your Rights & Data Deletion</h2>
+    <p>Under GDPR and CCPA, you have the right to access, correct, or delete your data. <strong>To delete your account:</strong> Open the App -> Settings -> Delete Account. This will immediately and permanently scrub all your data from our Supabase servers.</p>
+
+    <h2>5. Security Standards</h2>
+    <p>We use industry-standard AES-256 encryption for data at rest and SSL/TLS for data in transit. Our infrastructure is hosted on AWS and Supabase, adhering to SOC2 compliance standards.</p>
+
+    <div class="footer">
+        <p>Contact us: support@mediassistai.online</p>
+    </div>
+</body>
+</html>
